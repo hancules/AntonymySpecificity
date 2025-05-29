@@ -1,4 +1,4 @@
-# Antonymy Co-occurrence Dataset
+# Antonymy Co-occurrence Features Dataset
 
 This repository provides a dataset of **semantic relation word pairs** with their co-occurrence statistics, derived from the [Corpus of Contemporary American English (COCA)](https://www.english-corpora.org/coca/).
 
