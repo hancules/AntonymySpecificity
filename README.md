@@ -44,10 +44,5 @@ The dataset includes both semantically related pairs and unrelated (`UNR`) contr
 - The dataset includes **36,960 lemma pairs**, spanning **four parts of speech** and **five relations**.
 - `UNR` (unrelated) pairs are randomly sampled with frequency and length filtering.
 
----
-
-## Contact
-
-For questions or suggestions, feel free to open an issue or contact Zhihan CAO at cao.z.ab@m.titech.ac.jp.
 
 
