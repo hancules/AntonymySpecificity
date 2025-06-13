@@ -20,11 +20,9 @@ The dataset includes both semantically related pairs and unrelated (`UNR`) contr
 
 | Column Name       | Description |
 |-------------------|-------------|
-| `target`          | Target word (lemma) |
-| `target_form`     | Surface word form of the target |
+| `target`          | Target word lemma |
 | `target_freq`     | Sentence frequency of the target |
-| `relatum`         | Relatum word (lemma) |
-| `relatum_form`    | Surface word form of the relatum |
+| `relatum`         | Relatum word lemma |
 | `relatum_freq`    | Sentence frequency of the relatum |
 | `pos`             | Shared part of speech (`NOUN`, `VERB`, `ADJ`, `ADV`) |
 | `relation`        | Semantic relation: `ANT`, `SYN`, `HYP-HPO`, `HOL-MER`, `UNR`. Note all are symmetric. |
@@ -41,7 +39,7 @@ The dataset includes both semantically related pairs and unrelated (`UNR`) contr
 
 - Co-occurrence is measured at the **sentence level**.
 - Word forms are matched using **COCA’s lemma and PoS annotations**.
-- The dataset includes **36,960 lemma pairs**, spanning **four parts of speech** and **five relations**.
+- The dataset includes **31,522 lemma pairs**, spanning **four parts of speech** and **five relations**.
 - `UNR` (unrelated) pairs are randomly sampled with frequency and length filtering.
 
 
