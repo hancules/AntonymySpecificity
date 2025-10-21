@@ -22,8 +22,10 @@ The dataset includes both semantically related pairs and unrelated (`UNR`) contr
 |-------------------|-------------|
 | `target`          | Target word lemma |
 | `target_freq`     | Sentence frequency of the target |
+| `target_form`     | Target word form (only for co-occurrence-features-wf.csv) |
 | `relatum`         | Relatum word lemma |
 | `relatum_freq`    | Sentence frequency of the relatum |
+| `relatum_form`    | Relatum word form (only for co-occurrence-features-wf.csv) |
 | `pos`             | Shared part of speech (`NOUN`, `VERB`, `ADJ`, `ADV`) |
 | `relation`        | Semantic relation: `ANT`, `SYN`, `HYP-HPO`, `HOL-MER`, `UNR`. Note all are symmetric. |
 | `relatum_is`      | Role of the relatum to the target word (`ANT`, `SYN`, `HYP`, `HPO`, `HOL`, `MER`, `UNR`). Unlike `relation`, this column preserves directionality — for example, `HYP` and `HPO` are treated as distinct |
