@@ -41,8 +41,8 @@ The dataset includes both semantically related pairs and unrelated (`UNR`) contr
 
 - Co-occurrence is measured at the **sentence level**.
 - Words in relations are matched using **COCA’s lemma and PoS annotations**.
-- co-occurrence-features.csv includes **31,522 lemma pairs**, spanning **four parts of speech** and **five relations**.
-- co-occurrence-features-wf.csv includes **123,755 word form pairs**, which present information regarding co-occurrence of word forms, i.e. with inflection considered, supporting analysis with in a finer level.
+- `co-occurrence-features.csv` includes **31,522 word lemma pairs**, spanning **four parts of speech** and **five relations**.
+- `co-occurrence-features-wf.csv` includes **123,755 word form pairs**, which presents information regarding the co-occurrence of word forms, i.e. with inflection considered, supporting analysis with in a finer level.
 - `UNR` (unrelated) pairs are randomly sampled with frequency and length filtering.
 
 
